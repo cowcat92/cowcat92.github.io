@@ -21,9 +21,7 @@ text-align: center;
 padding: 20px;
 margin: 20px;
 }
-header{
 
-}
 
 nav{
   display: flex;
@@ -38,6 +36,10 @@ nav ul{
   list-style-type: none;
   font-weight: 800;
   font-size: 20px;
+}
+nav a:hover{
+  text-decoration: none; 
+  color: orange;
 }
 .trending{
   padding: 40px 20px;
