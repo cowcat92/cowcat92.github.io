@@ -1,13 +1,17 @@
+/*universal styles*/
 *{
   margin: 0; 
   padding: 0;
   box-sizing: border-box;
 }
 body{
-  background-image: url("");
   margin: 0 auto; 
 }
-
+@font-face {
+  font-family:"Playwrite";
+  src: url("https://fonts.googleapis.com/css2?family=Playwrite+CA:wght@100..400&display=swap");
+}
+/*navigation and logo*/
 h1{
 margin: 20px;
 padding: 20px;
@@ -20,6 +24,12 @@ h2{
 text-align: center;
 padding: 20px;
 margin: 20px;
+}
+
+.hero h2{
+  font-family: "Playwrite", Arial;
+  color: rgba(90, 90, 139, 0.5);
+
 }
 
 
@@ -41,7 +51,9 @@ nav a:hover{
   text-decoration: none; 
   color: orange;
 }
-.trending{
+
+/*trending content*/
+#trending{
   padding: 40px 20px;
   background-color: rgba(255, 255, 255, 0.9);
   margin: 30px;
@@ -52,7 +64,7 @@ nav a:hover{
   grid-template-columns: repeat(3, 200px);
   grid-auto-columns: auto;
   gap: 10px;
-  max-width: 1200px;
+  max-width: 600px;
 }
 .plant-card {
   display: flex;
@@ -80,8 +92,10 @@ nav a:hover{
   text-align: center;
   color: #333;
 }
-
-/* Media Queries for Responsiveness */
+/*sidebars*/
+/*contact*/
+/*footer*/
+/* Media Queries for Responsiveness*/
 @media only screen and (max-width: 900px) {
   .plant-container {
     grid-template-columns: repeat(2, 1fr);
@@ -94,6 +108,7 @@ nav a:hover{
   }
   
   .plant-card img {
-    height: 250px;
+    width: 250px;
+    height: auto;
   }
 }
