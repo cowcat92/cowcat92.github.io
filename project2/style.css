@@ -7,10 +7,6 @@
 body{
   margin: 0 auto; 
 }
-@font-face {
-  font-family:"Playwrite";
-  src:url("/fonts/PlaywriteCA-Regular.ttf") format("truetype");
-}
 /*navigation and logo*/
 h1{
 margin: 20px;
@@ -26,7 +22,11 @@ padding: 20px;
 margin: 20px;
 }
 
-.hero p {
+#hero h2 {
+  font-family: "Playwrite Canada", sans-serif;
+  color: rgba(90, 90, 139, 0.5);
+}
+#hero h3{
   font-family: "Playwrite", sans-serif;
   color: rgba(90, 90, 139, 0.5);
 }
