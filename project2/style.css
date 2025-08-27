@@ -9,6 +9,7 @@ body{
 }
 @font-face {
   font-family:"Playwrite";
+  src:url("/fonts/PlaywriteCA-Regular.ttf") format("truetype");
 }
 /*navigation and logo*/
 h1{
@@ -19,16 +20,15 @@ background-color: gray;
 color: white;
 }
 
-h2{
+#trending h2{
 text-align: center;
 padding: 20px;
 margin: 20px;
 }
 
-.hero h2{
-  font-family: "Playwrite", Arial;
+.hero p {
+  font-family: "Playwrite", sans-serif;
   color: rgba(90, 90, 139, 0.5);
-
 }
 
 
