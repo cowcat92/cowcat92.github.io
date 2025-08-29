@@ -72,7 +72,7 @@ nav a:hover{
 /*Hero content*/
 
 #hero{
-  background-image: url(/heroimg.avif.avif);
+  background-image: url("/project2/heroimg.avif.avif");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -197,7 +197,7 @@ button{
   padding: 15px;
   margin: 10px;
   border-radius: 10px;
-  background-image: url("/photo-1601985705806-5b9a71f6004f.avif");
+  background-image: url("/project2/photo-1601985705806-5b9a71f6004f.avif");
  
 }
 
