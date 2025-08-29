@@ -190,6 +190,14 @@ button{
   margin: 10px;
   border-radius: 10px;
  }
+#shopinfo .address{
+  margin-bottom: 20px;
+}
+
+#shopinfo h2{
+  margin-top: 1px;
+}
+
 /*about content*/
 #aboutus{
   grid-column: 2;
@@ -301,9 +309,6 @@ font-style: italic;
 
 /* Media Queries for Responsiveness*/
 
-/* Media Queries for Responsiveness */
-
-/* Large tablets and small desktops */
 @media only screen and (max-width: 1024px) {
   .plant-container {
     grid-template-columns: repeat(3, 1fr);
@@ -340,7 +345,7 @@ font-style: italic;
   }
 }
 
-/* Medium tablets */
+
 @media only screen and (max-width: 768px) {
   .plant-container {
     grid-template-columns: repeat(2, 1fr);
@@ -400,14 +405,12 @@ font-style: italic;
     align-items: center;
   }
   
-  /* Ensure plant cards maintain their style */
   .plant-card {
     max-width: 100%;
     margin: 0 auto;
   }
 }
 
-/* Small phones */
 @media only screen and (max-width: 400px) {
   .plant-container {
     grid-template-columns: 1fr;
